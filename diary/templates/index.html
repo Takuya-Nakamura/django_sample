@@ -1,12 +1,9 @@
 <!DOCTYPE html>
+{% extends 'base.html' %}
 
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>トップページ</title>
-    </head>
-    <body>
-        <h1>Hello Django</h1>
-    </body>
+{% load static %}
 
-</html>
+
+{% block contents %}
+    <h1>Contents</h1>
+{% endblock %}
